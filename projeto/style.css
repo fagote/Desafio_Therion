@@ -1,0 +1,83 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #FF5991;
+}
+
+header img {
+    max-height: 50px; /* Defina a altura máxima da imagem do logo */
+    margin-right: 420px;
+}
+
+.stock-item {
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    background-color: #FF5991;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.delete-button:hover {
+    background-color: #fe2a71;
+}
+
+.edit-button {
+    background-color: #FF5991;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.edit-button:hover {
+    background-color: #fe2a71;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#header img {
+    max-height: 50px; /* Defina a altura máxima da imagem do logo */
+    margin-right: 380px;
+}
+
+#stock-list {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px;
+    background-color: #bebebe;
+}

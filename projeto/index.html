@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="blackTherion.png" alt="Logo da Empresa">
+        <h1>StockWise</h1>
+    </header>
+
+    <form id="item-form">
+        <label for="item-name">Nome do item:</label>
+        <input type="text" id="item-name" required>
+        <label for="item-quantity">Quantidade:</label>
+        <input type="number" id="item-quantity" required>
+        <label for="item-value">Valor do item:</label>
+        <input type="number" id="item-value" required>
+        <button type="submit">Adicionar ao estoque</button>
+    </form>
+    <div id="stock-list">
+        <!-- A lista de itens em estoque será exibida aqui -->
+    </div>
+
+    <br><br><br><br>
+
+    <footer>
+        <p>&copy; 2023 Therion. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
